@@ -7,6 +7,6 @@ const googleSearch = (searchInput, db) => {
   return matches.length > 3 ? matches.slice(0, 3) : matches;
 };
 
-console.log(googleSearch('s', googleData));
+// console.log(googleSearch('s', googleData));
 
 module.exports = googleSearch;
